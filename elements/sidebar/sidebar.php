@@ -6,8 +6,7 @@
 	<div id="user">
 		<?php 
 		//get the username and image from the current user
-		//only one user for the moment: admin
-		$username = "Admin";
+		$username = htmlentities($_SESSION['user']['username'], ENT_QUOTES, 'UTF-8');
 		$image = "images/users/". $username . ".jpg";
 		
 		echo "<div id='avatar'> <img src=". $image ." alt=". $username ."/> </div>";
@@ -17,10 +16,10 @@
 		
 
 		  	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-		    <li role="presentation"><a role="menuitem" tabindex="-1" href="settings/account_settings.php" data-target="#">User settings</a></li>
+		    <li role="presentation"><a role="menuitem" tabindex="-1" href="account/account_settings.php" data-target="#">User settings</a></li>
 		    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Help and support</a></li>
 		    <li role="presentation" class="divider"></li>
-		    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Log out</a></li>
+		    <li role="presentation"><a role="menuitem" tabindex="-1" href="account/logout.php" data-target="#">Log out</a></li>
 		  </ul>
 		</div>
 		
