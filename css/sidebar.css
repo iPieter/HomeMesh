@@ -1,10 +1,13 @@
 #sidebar {
-	background-color: rgb(52, 73, 94);
-	width: 150px;
-	margin: 0px;
-	float: left;
-	height: 100%;
+	position:fixed !important;
+	position:absolute;
+	bottom:0;
 	left: 0;
+	float: left;
+	margin: 0px;
+	width: 150px;
+	height: 100%;
+	background-color: rgb(52, 73, 94);
 }
 
 #sidebar #user {
@@ -12,17 +15,17 @@
 }
 
 #sidebar #avatar {
+	position: relative;
+	display: block;
 	margin-top: 12px;
+	margin-right: auto;
+	margin-left: auto;
 	width: 64px;
 	height: 64px;
 	border: 3px solid rgb(189, 195, 199);
 	-webkit-border-radius: 200px;
 	-moz-border-radius: 200px;
 	border-radius: 200px;
-	position: relative;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 
@@ -35,28 +38,32 @@
 }
 
 #sidebar #username{
-	margin-top: 6px;
 	position: relative;
 	display: block;
-	margin-left: auto;
+	margin-top: 6px;
 	margin-right: auto;
+	margin-left: auto;
 	text-align: center;
 }
 
 #sidebar #username .text {
-	color: rgb(236, 240, 241);
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	text-align: center;
 	display: inline-block;
+	color: rgb(236, 240, 241);
+	text-align: center;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
 
 }
 
 #sidebar #username .icon-arrow-down {
-	background-image: url("../images/sprites/arrow-down.png");
 	display: inline-block;
-	vertical-align: middle;
 	width: 16px;
 	height: 10px;
+	background-image: url("../images/sprites/arrow-down.png");
 	background-repeat: no-repeat;
-	}
+	vertical-align: middle;
+}
+
+#sidebar .navigation {
+	color: rgb(189, 195, 199)!important;
+}

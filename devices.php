@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Dashboard</title>
+	<title>Devices</title>
 	
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:100,300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -32,7 +32,6 @@
     }
     
 	include("elements/sidebar/sidebar.php");
-	include("elements/topbar/topbar.php"); 
-	include("elements/bricks/wall.php")?>
+	include("elements/topbar/topbar.php"); ?>
 
 </body> 
