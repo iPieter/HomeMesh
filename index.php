@@ -2,7 +2,7 @@
 <head>
 	<title>Dashboard</title>
 	
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:100,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:100,300,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	
@@ -33,6 +33,6 @@
     
 	include("elements/sidebar/sidebar.php");
 	include("elements/topbar/topbar.php"); 
-	include("elements/bricks/wall.php")?>
+	include("elements/bricks/wall.php");?>
 
 </body> 

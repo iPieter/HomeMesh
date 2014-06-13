@@ -47,7 +47,7 @@ a {
 }
 a:active,
 a:hover {
-  outline: 0;
+ /* outline: 0; */
 }
 abbr[title] {
   border-bottom: 1px dotted;
@@ -295,12 +295,12 @@ a {
 a:hover,
 a:focus {
   color: rgb(41, 128, 185);
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 a:focus {
-  outline: thin dotted;
+  /*outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
+  outline-offset: -2px; */
 }
 figure {
   margin: 0;
@@ -3078,7 +3078,7 @@ input[type="button"].btn-block {
   display: block;
 }
 .open > a {
-  outline: 0;
+  /*outline: 0;*/
 }
 .dropdown-menu-right {
   right: 0;

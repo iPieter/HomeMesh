@@ -2,13 +2,14 @@
 <head>
 	<title>Devices</title>
 	
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:100,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:100,300,400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	
 	<link rel="stylesheet" type="text/css" href="css/wall.css">
 	<link rel="stylesheet" type="text/css" href="css/topbar.css">
 	<link rel="stylesheet" type="text/css" href="css/sidebar.css">
+	<link rel="stylesheet" type="text/css" href="css/devices.css">
 
 	
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -19,7 +20,7 @@
 	<?php 
     // First we execute our common code to connection to the database and start the session 
     require("scripts/common.php"); 
-     
+    require("scripts/datalogin.php");
     // At the top of the page we check to see whether the user is logged in or not 
     if(empty($_SESSION['user'])) 
     { 
@@ -33,5 +34,12 @@
     
 	include("elements/sidebar/sidebar.php");
 	include("elements/topbar/topbar.php"); ?>
+
+<div id="devices" class="container-fluid">
+	<div class="row">
+		<?php include "devices/device_list.php"; ?>
+	</div>
+</div>
+</div>
 
 </body> 

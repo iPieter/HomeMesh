@@ -1,3 +1,13 @@
+<script>
+
+
+$(document).ready(function () {
+
+	 $('.dropdown-toggle').dropdown();
+});
+
+</script>
+
 <div id="sidebar">
 
 	<div id="user">
@@ -17,7 +27,7 @@
 
 		
 		?>
-		<span class="icon-arrow-down"></span> </div> </a> 
+		<span class="glyphicon glyphicon-chevron-down"></span></div> </a> 
 		
 
 		  	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
@@ -48,13 +58,3 @@
 	
 	
 </div>
-
-<script>
-
-
-$(document).ready(function () {
-
-	 $('.dropdown-toggle').dropdown();
-});
-
-</script>
