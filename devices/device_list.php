@@ -3,8 +3,8 @@
 $new_row = "	</div>
 	<div class='row'>";
 
-$cell = "<div class='col-md-3'> <div class='brick'><img  class='device' src='images/devices/";
-$cell_2 = ".jpg'/> <div class='info'> <h1>";
+$cell = "<div class='col-md-3'> <div class='brick'><div  class='image'><img  class='device' src='images/devices/";
+$cell_2 = ".jpg'/> </div> <div class='info'> <h1>";
 $cell_3 = "</h2><ul class='list-unstyled'>";
 $cell_4 = "</ul></div></div></div>";
 

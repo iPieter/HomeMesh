@@ -8,6 +8,7 @@
 }
 
 #devices .brick {
+	background-color: #fff;
 	position: relative;
 	z-index: auto;
 	padding: 2px;
@@ -64,6 +65,13 @@
 #devices .brick img {
 	border-radius: 50%;
 	height: 100px;
-	display: inline-table;
 	margin: 10px;
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+#devices .image{
+	display: inline-block;
+	height: 100%;
 }

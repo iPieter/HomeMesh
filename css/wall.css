@@ -8,6 +8,7 @@
 }
 
 #wall .brick {
+	background-color: #fff;
 	position: relative;
 	z-index: auto;
 	padding: 2px;
